@@ -30,19 +30,33 @@
         a {
             text-decoration: none;
         }
+
+        
+        h1, h3, p {
+            text-align: center;
+        }
     </style>
 </head>
 <body>
-    <h1>This is the bonus homepage!</h1>
-    <nav>
-        <ul>
-            <li><a href="/">Return to base exercise</a></li>
-            <li><a href="/bonus">Homepage</a></li>
-            <li class="active"><a href="/about">About us</a></li>
-            <li><a href="/product">What we sell</a></li>
-            <li><a href="/story">Our Story</a></li>
-            <li><a href="/enough">Out of ideas for page names</a></li>
-        </ul>
-    </nav>
+    <header>
+    <h1>This is the About us page!</h1>
+        <nav>
+            <ul>
+                <li><a href="/">Return to base exercise</a></li>
+                <li><a href="/bonus">Homepage</a></li>
+                <li class="active"><a href="/about">About us</a></li>
+                <li><a href="/product">What we sell</a></li>
+                <li><a href="/story">Our Story</a></li>
+                <li><a href="/enough">Out of ideas for page names</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <p>
+            We are a very advanced tech company with a lot of developers and expecially a huge team of graphic designers, as you can easily see from our website.
+        </p>
+    </main>
+    
 </body>
 </html>
