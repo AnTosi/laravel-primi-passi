@@ -14,5 +14,10 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('home');
-});
+    $animals = 'gatti';
+    $number = '3';
+    $cats_name = [
+        'Dafne', 'Lenticchia', 'Jinx'
+    ];
+    return view('home', compact('animals', 'number', 'cats_name'));
+})->name('home');
