@@ -21,3 +21,7 @@ Route::get('/', function () {
     ];
     return view('home', compact('animals', 'number', 'cats_name'));
 })->name('home');
+
+Route::get('/bonus', function () {
+    return view('bonus');
+})->name('bonus');
