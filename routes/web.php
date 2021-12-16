@@ -33,3 +33,12 @@ Route::get('/about', function () {
 Route::get('/product', function () {
     return view('product');
 })->name('product');
+
+Route::get('/story', function () {
+    return view('story');
+})->name('story');
+
+Route::get('/enough', function () {
+    return view('enough');
+})->name('enough');
+
