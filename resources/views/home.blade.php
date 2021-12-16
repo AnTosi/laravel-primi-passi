@@ -15,6 +15,7 @@
             {{ $cat_name}}
         </p>
     @endforeach
-        
+    
+    <a href="/bonus">Vai al bonus</a>
 </body>
 </html>

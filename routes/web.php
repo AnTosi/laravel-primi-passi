@@ -25,3 +25,8 @@ Route::get('/', function () {
 Route::get('/bonus', function () {
     return view('bonus');
 })->name('bonus');
+
+Route::get('/about', function () {
+    return view('about');
+})->name('about');
+
