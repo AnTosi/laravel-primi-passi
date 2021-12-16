@@ -37,11 +37,11 @@
     <nav>
         <ul>
             <li><a href="/">Return to base exercise</a></li>
-            <li class="active"><a href="/bonus">Homepage</a></li>
+            <li><a href="/bonus">Homepage</a></li>
             <li><a href="/about">About us</a></li>
             <li><a href="/product">What we sell</a></li>
             <li><a href="/story">Our Story</a></li>
-            <li><a href="/enough">Out of ideas for page names</a></li>
+            <li class="active"><a href="/enough">Out of ideas for page names</a></li>
         </ul>
     </nav>
 </body>
